@@ -22,8 +22,29 @@ module.exports = {
         '900': '#872015',
         '950': '#4a0c05',
     },
+    offSalmon: {
+      '50': '#faf7ec',
+      '100': '#f4eacd',
+      '200': '#ebd49d',
+      '300': '#e0b664',
+      '400': '#d59b3a',
+      '500': '#cc8a2e',
+      '600': '#aa6824',
+      '700': '#884b20',
+      '800': '#723e21',
+      '900': '#623521',
+      '950': '#381a10',
+  },
+  
+    
     },
     extend: {
+    
+        fontFamily: {
+          spartan: ["Spartan", "sans-serif"],
+
+        },
+  
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

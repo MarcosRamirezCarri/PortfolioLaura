@@ -20,6 +20,10 @@ body {
   color: rgb(var(--foreground-rgb));
      background-color: #0f0200 !important
 }
+@font-face {
+  font-family: "Spartan";
+  src: url('../../public/fonts/LeagueSpartan-VariableFont_wght.ttf');
+}
 
 @layer utilities {
   .text-balance {
