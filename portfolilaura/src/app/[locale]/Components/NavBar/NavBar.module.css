@@ -1,0 +1,7 @@
+.animate{
+    width: fit-content;
+    height: fit-content;
+animation:scale-up-vertical-top 0.15s linear both
+} 
+
+@keyframes scale-up-vertical-top{0%{transform:scaleY(.4)}100%{transform:scaleY(1)}}
