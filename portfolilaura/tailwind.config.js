@@ -9,6 +9,7 @@ module.exports = {
 
     colors:{
       black: '#1e0401',
+      brown: '#841b0a',
       salmon: {
         '50': '#fff2f1',
         '100': '#ffe3e0',

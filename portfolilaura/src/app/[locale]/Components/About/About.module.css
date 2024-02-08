@@ -1,0 +1,37 @@
+.leftSection {
+    animation: to-center 1s ease-in-out;
+  }
+
+  .rightSection {
+    animation: to-center 1.5s ease-in-out;
+  }
+
+  .titleFade{
+    animation: fade-in 2s ease-in-out;
+  }
+.lettersFade{
+  animation: fade-in 2.7s ease-in-out;
+}
+
+@keyframes to-center {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fade-in {
+    from {
+    
+      opacity: 0;
+    }
+    to {
+
+      opacity: 1;
+    }
+  }
+  

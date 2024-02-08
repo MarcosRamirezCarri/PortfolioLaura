@@ -4,7 +4,7 @@ import About from "./[locale]/Components/About/About";
 
 export default function Home() {
   return (
-    <div className="w-[100vw] h-[100vh] flex flex-col gap-10">
+    <div className="w-full h-full gap-10">
       <NavBar/>
       
       <About/>
