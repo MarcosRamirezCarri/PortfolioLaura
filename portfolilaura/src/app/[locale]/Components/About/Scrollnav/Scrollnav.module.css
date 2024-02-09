@@ -1,0 +1,21 @@
+.Scrollnav {
+    font-size: 6rem;
+    color: #cc8a2e;
+    animation: l9 0.8s infinite linear alternate;
+    position: absolute;
+    place-self: center;
+    bottom: 35px;
+    z-index: 2;
+  }
+  
+  @keyframes l9 {
+    0% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(12px);
+    }
+  }
