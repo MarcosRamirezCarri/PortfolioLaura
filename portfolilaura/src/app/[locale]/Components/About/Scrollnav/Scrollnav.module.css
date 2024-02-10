@@ -4,6 +4,7 @@
     animation: l9 0.8s infinite linear alternate;
     position: absolute;
     place-self: center;
+    overflow-y: hidden;
     bottom: 35px;
     z-index: 2;
   }

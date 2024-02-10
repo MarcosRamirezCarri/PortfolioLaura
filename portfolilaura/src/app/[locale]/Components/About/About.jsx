@@ -1,14 +1,21 @@
+'use client'
 import Image from "next/image";
 import style from './About.module.css'
+import AOS from "aos";
+import { useEffect } from "react";
+import '../../../../../node_modules/aos/dist/aos.css'
 import Laura from '../../../../Data/Laura.png'
 import Scrollnav from "./Scrollnav/Scrollnav";
 
 export default function About() {
+  useEffect(() => {
+    AOS.init({duration: 2000})
+  },[])
     return (
-      <div className="h-[80vh] w-[100vw] relative top-32 flex flex-col -z-[10]  ">
+      <div className="h-[80vh] w-[100vw] relative top-32 flex flex-col z-[10]  ">
      <div className="grid grid-cols-2 gap-5 h-[60vh] w-[90vw] relative place-self-center">
            <div className={style.leftSection}>
-           <div className="flex flex-col bg-offSalmon-800 p-5 rounded">
+           <div className="flex flex-col  bg-offSalmon-800 p-5 rounded">
         <Image src={Laura} width={200} height={300} className="h-96 w-96 rounded relative self-center"/>
      </div>
            </div>
