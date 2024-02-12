@@ -2,6 +2,8 @@ import Image from "next/image";
 import NavBar from "./[locale]/Components/NavBar/NavBar";
 import About from "./[locale]/Components/About/About";
 import Titles from "./[locale]/Components/Titles/Titles";
+import AllCompanies from "./[locale]/Components/Companies/Companies";
+import Projects from "./[locale]/Components/Projects/Projects";
 
 
 export default function Home() {
@@ -10,6 +12,8 @@ export default function Home() {
       <NavBar/>
       <About/>
       <Titles/>
+      <AllCompanies/>
+      <Projects/>
     </div>
   );
 }

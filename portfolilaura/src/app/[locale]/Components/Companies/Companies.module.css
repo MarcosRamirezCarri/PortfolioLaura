@@ -1,0 +1,21 @@
+.slide{
+    background-color: #f4eacd;
+    gap: 0.75rem;
+    min-width: 150px;
+    height: 190px;
+    border-radius: 0.5rem;
+    padding: 10px;
+    gap: 1rem;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+animation: scroll 170s linear infinite;  
+}
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-2450px);
+    }
+  }
