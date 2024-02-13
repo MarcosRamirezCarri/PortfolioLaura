@@ -1,12 +1,43 @@
-import projects from '../../Mocks/projectsMock'
+'use client'
+import { projects } from '../../Mocks/projectsMock'
+import { useEffect } from 'react'
+import ProjectsCard from './CardProject/CardProject';
+import '../../../../../node_modules/aos/dist/aos.css'
+import AOS from "aos";
 
 export default function Projects() {
+  useEffect(() => {
+    AOS.init({duration: 2500})
+  },[])
+
+  const allProjects = [...projects]
+
     return (
-      <div className="w-full h-[70vh] gap-10">
-       <div>
-        <p>projecatos</p>
-       </div>
-  
+      <div className="w-full flex flex-col relative top-32 gap-10">
+      <h1 data-aos='fade-up' className="text-3xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Mis Proyectos </h1>
+   <div className='flex flex-col gap-32'>
+   {allProjects && allProjects.map((oneProject, index) =>
+      <div  key={index} >
+<ProjectsCard 
+     link={oneProject.link}
+      name={oneProject.name}
+  Empresa={oneProject.Empresa}
+  Especialidad={oneProject.Especialidad}
+  texto1={oneProject.texto1}
+  texto2={oneProject.texto2}
+  texto3={oneProject.texto3}
+  image={oneProject.image}
+  />
       </div>
+      
+    )
+
+    }  
+   </div>
+
+  
+       </div>
+
+    
     );
   }

@@ -61,7 +61,7 @@ export default function AllCompanies() {
   }, []);
 
   useEffect(() => {
-    AOS.init({duration: 2500})
+    AOS.init({duration: 1000})
   },[])
     return (
       <div className="w-full h-[50vh] flex flex-col relative top-28 ">
@@ -94,6 +94,8 @@ export default function AllCompanies() {
         ))}
         
       </div>
+      
+    
       </div>
     );
   }
