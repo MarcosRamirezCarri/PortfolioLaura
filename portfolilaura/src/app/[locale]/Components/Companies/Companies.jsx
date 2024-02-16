@@ -65,7 +65,7 @@ export default function AllCompanies() {
   },[])
     return (
       <div className="w-full h-[50vh] flex flex-col relative top-28 ">
- <div  className='bg-gradient-to-r from-black to-offSalmon-950 w-full h-[70vh] absolute skew-y-3 -z-[999]'></div>
+ <div  className='bg-gradient-to-r from-black to-offSalmon-950 w-full  h-[70vh] absolute skew-y-3 -z-[999]'></div>
 <div className='flex flex-col gap-3'>
   <p data-aos='fade-right' className="text-2xl flex flex-row gap-2 text-left self-center text-offSalmon-100 font-semibold font-spartan">A través de Sabio Marketing</p>
 <h1 data-aos='fade-left' className="text-4xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Marcas con las cuales he trabajado</h1>
