@@ -5,6 +5,7 @@ import Titles from "./[locale]/Components/Titles/Titles";
 import AllCompanies from "./[locale]/Components/Companies/Companies";
 import Projects from "./[locale]/Components/Projects/Projects";
 import Carousel from "./[locale]/Components/Carousels/Carousel";
+import Footer from "./[locale]/Components/Footer/Footer";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <AllCompanies/>
       <Projects/>
       <Carousel/>
+      <Footer/>
     </div>
   );
 }

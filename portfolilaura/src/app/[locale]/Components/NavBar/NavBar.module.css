@@ -1,7 +1,16 @@
 .animate{
     width: fit-content;
     height: fit-content;
-animation:scale-up-vertical-top 0.15s linear both
+animation:scale-up-vertical-top 0.2s linear both
 } 
 
-@keyframes scale-up-vertical-top{0%{transform:scaleY(.4)}100%{transform:scaleY(1)}}
+@keyframes scale-up-vertical-top
+{0%{
+    opacity: 	0;
+
+    transform:scaleY(.5)
+}
+100%{
+    opacity: 1;
+    transform:scaleY(1)
+}}

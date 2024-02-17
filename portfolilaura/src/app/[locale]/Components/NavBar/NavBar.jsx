@@ -1,5 +1,7 @@
 'use client'
-import { useState } from "react";
+import { lazy, useState } from "react";
+import	LauraLogo from '../../../../Data/LogoLaura.png'
+import Image from "next/image";
 import style from './NavBar.module.css'
 
 export default function NavBar() {
@@ -26,6 +28,9 @@ export default function NavBar() {
           </div>
         
       <p className="text-lg text-center font-semibold font-spartan">Profesora de letras y copyrighter</p>
+        </div>
+        <div>
+          <Image className="rounded-full h-32 w-32 p-2 bg-offSalmon-300 ring-8 ring-offSalmon-200" src={LauraLogo} width={300} height={300}/>
         </div>
 <div className="flex flex-row relative gap-20 justify-self-end right-4">
   <button className="text-2xl text-center font-normal font-spartan transition-color ease-in duration-150 underline decoration-offSalmon-200  hover:decoration-salmon-800">Sobre mi</button>

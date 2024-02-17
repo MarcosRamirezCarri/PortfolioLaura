@@ -7,7 +7,8 @@ const CarouselImg = [
     },
     {
         id: 2,
-        imagenes: ['https://res.cloudinary.com/dljgbq48k/image/upload/v1707946801/WhatsApp_Image_2024-02-13_at_17.15.01_xabjve.jpg'] 
+        imagenes: ['https://res.cloudinary.com/dljgbq48k/image/upload/v1708209499/WhatsApp_Image_2024-02-17_at_19.37.15_hhvdll.jpg', 
+        'https://res.cloudinary.com/dljgbq48k/image/upload/v1708209499/WhatsApp_Image_2024-02-17_at_19.36.55_roxkgv.jpg'] 
     },
     {
         id: 3,
