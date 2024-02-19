@@ -1,6 +1,4 @@
 .animate{
-    width: fit-content;
-    height: fit-content;
 animation:scale-up-vertical-top 0.2s linear both
 } 
 

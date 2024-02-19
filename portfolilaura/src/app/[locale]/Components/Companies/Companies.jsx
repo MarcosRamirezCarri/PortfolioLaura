@@ -89,7 +89,7 @@ export default function AllCompanies() {
           >
             <Image className='h-8 w-12 rounded place-self-start absolute z-[100]' width={50} height={50} src={a.country}/>
             <Image className='h-24 w-24 rounded-xl self-center relative' src={a.imagen} alt='phProyect'width={100} height={100} />
-            <p className='font-spartan text-xl text-offSalmon-950 self-center relative'>{a.name}</p>
+            <p className='font-spartan text-xl text-offSalmon-950 [text-shadow:_1px_7px_17px_rgba(0,0,0,0.77)] self-center relative'>{a.name}</p>
           </div>
         ))}
         

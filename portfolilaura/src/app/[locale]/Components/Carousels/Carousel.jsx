@@ -34,7 +34,8 @@ export default function Carousel() {
         <h1 data-aos='fade-left' className="text-4xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Otros trabajos mios</h1>
         <div className='grid grid-cols-2 gap-5 place-items-center'>
         {carouselAll && carouselAll.map((car) => 
-        <div data-aos='fade-up' className='bg-offSalmon-300 flex flex-col  py-5 px-2 max-h-96 max-w-[30vw] rounded' key={car.id}>
+        <div data-aos='fade-up' className='bg-offSalmon-300 flex flex-col gap-3 py-5 px-2 max-h-96 max-w-[30vw] rounded' key={car.id}>
+          
 <Swiper
         effect={'coverflow'}
         centeredSlides={false}
@@ -52,11 +53,12 @@ export default function Carousel() {
         modules={[Navigation, Pagination, Scrollbar, A11y, EffectCoverflow]}
         className='h-80 w-[100%]'
       >
-        {car.imagenes.map((img, index) => <SwiperSlide key={index} className='ring-2 ring-offSalmon-100 flex flex-col p-2 h-[100%] w-[100%]'>
-          <Image onClick={() =>openModal(img)}  src={img} className='rounded relative self-center cursor-pointer' width={580} height={500} />
+        {car.imagenes.map((img, index) => <SwiperSlide key={index} className=' flex flex-col p-2 '>
+          <Image onClick={() =>openModal(img)}  src={img} className='rounded ring-2 ring-offSalmon-100 relative self-center h-[100%] w-[100%] cursor-pointer' width={780} height={700} />
         </SwiperSlide>
 )}  
       </Swiper>
+      <p className="text-xl font-spartan [text-shadow:_1px_7px_17px_rgba(0,0,0,0.77)] text-center text-offSalmon-950">{car.work}</p>
         </div>
         
         ) }

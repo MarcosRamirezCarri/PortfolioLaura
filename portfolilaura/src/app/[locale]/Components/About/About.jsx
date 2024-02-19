@@ -15,15 +15,15 @@ export default function About() {
       <div className="h-[80vh] w-[100vw] relative top-32 flex flex-col z-[10]  ">
      <div className="grid grid-cols-2 gap-5 h-[60vh] w-[90vw] relative place-self-center">
            <div className={style.leftSection}>
-           <div className="flex flex-col  bg-offSalmon-800 p-5 rounded">
+           <div className="flex flex-col  bg-offSalmon-900 p-5 rounded">
         <Image src={Laura} width={200} height={300} className="h-96 w-96 rounded relative self-center"/>
      </div>
            </div>
            <div className={style.rightSection}>
-           <div className="bg-offSalmon-800 rounded grid grid-cols-2 p-4 gap-5">
+           <div className="bg-offSalmon-900 rounded grid grid-cols-2 p-4 gap-5">
     <div className="col-span-2">
       <div className={style.titleFade}>
-      <h1 className="text-5xl font-spartan text-salmon-300">Hola! Mi nombre es Laura</h1>
+      <h1 className="text-5xl font-spartan text-offSalmon-300">Hola! Mi nombre es Laura</h1>
       </div>    
     </div>
    <div className={style.lettersFade}>

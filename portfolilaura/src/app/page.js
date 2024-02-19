@@ -11,11 +11,16 @@ import Footer from "./[locale]/Components/Footer/Footer";
 export default function Home() {
   return (
     <div className="w-full flex flex-col overflow-x-hidden overflow-y-hidden gap-10">
-      <NavBar/>
+      <NavBar SectionAbout='SectionAbout' SectionProjects='SectionProjects'/>
+      <div  id='SectionAbout'>
       <About/>
+      </div>
       <Titles/>
       <AllCompanies/>
-      <Projects/>
+      <div id='SectionProjects' >
+      <Projects />
+      </div>
+      
       <Carousel/>
       <Footer/>
     </div>
