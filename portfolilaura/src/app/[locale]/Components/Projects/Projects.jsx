@@ -14,7 +14,7 @@ export default function Projects() {
 
     return (
       <div className="w-full flex flex-col relative top-32 gap-10">
-      <h1 data-aos='fade-up' className="text-3xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Mis Proyectos </h1>
+      <h1 data-aos='fade-up' className="text-3xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Mis Copys </h1>
    <div className='flex flex-col gap-32'>
    {allProjects && allProjects.map((oneProject, index) =>
       <div  key={index} >
@@ -29,9 +29,7 @@ export default function Projects() {
   image={oneProject.image}
   />
       </div>
-      
     )
-
     }  
    </div>
 

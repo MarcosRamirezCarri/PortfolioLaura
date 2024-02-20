@@ -29,13 +29,13 @@ export default function Titles() {
   <h1 data-aos='fade-up' className="text-5xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Educación<LuGraduationCap></LuGraduationCap> </h1>
   <div data-aos='fade' className="w-[75vw] h-[60vh] grid relative grid-cols-2 place-self-center gap-24">
   <div className="bg-offSalmon-300 rounded flex flex-col content-left p-5 gap-5">
-    <Image width={200}  onClick={() =>openModal(LetterCertificate)}  height={200} className="h-44 w-48 rounded ring-2 ring-offSalmon-400 place-self-center cursor-pointer" src={LetterCertificate}/>
-  <p className="text-3xl text-left text-black font-semibold [text-shadow:_1px_7px_17px_rgba(0,0,0,0.77)] font-spartan">Profesorado en Letras</p>
+    <Image width={200}  onClick={() =>openModal(LetterCertificate)}  height={200} className="h-44 w-48 rounded ring-2 ring-offSalmon-400 place-self-center cursor-pointer" src={LetterCertificate} alt="PhTitle"/>
+  <p className="text-3xl text-left text-black font-semibold [text-shadow:_1px_7px_17px_rgba(0,0,0,0.77)] font-spartan">Profesorado de Letras</p>
   <p className="text-3xl text-left text-salmon-950 font-medium font-spartan">Universidad Nacional del Litoral</p>
 <p className="text-3xl text-left  text-salmon-950 font-medium font-spartan">Egreso: 2021</p>
 </div>
 <div data-aos='fade' className="bg-offSalmon-300 flex flex-col content-left rounded p-5 gap-5">
-<Image width={200} onClick={() =>openModal(CorderHCertificate)} height={200} className="h-44 w-48 rounded ring-2 ring-offSalmon-300 place-self-center cursor-pointer" src={CorderHCertificate}/>
+<Image width={200} onClick={() =>openModal(CorderHCertificate)} height={200} className="h-44 w-48 rounded ring-2 ring-offSalmon-300 place-self-center cursor-pointer" src={CorderHCertificate} alt="PhTitle"/>
 <p className="text-3xl text-left text-black font-semibold [text-shadow:_1px_7px_17px_rgba(0,0,0,0.77)] font-spartan">Copywriting</p>
   <p className="text-3xl text-left text-salmon-950 font-medium font-spartan">Coderhouse</p>
 <p className="text-3xl text-left text-salmon-950 font-medium font-spartan">Egreso: 2022</p>

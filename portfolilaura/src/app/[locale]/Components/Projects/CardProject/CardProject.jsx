@@ -29,11 +29,12 @@ export default function ProjectsCard({name, texto1, texto2, texto3, Empresa, Esp
 <Image width={400} onClick={() =>openModal(image)} height={400} alt="ProjectImg" src={image} className="h-96 w-64 place-self-center cursor-pointer"/>
 </div>
 <div className="transparent rounded flex  col-span-2 flex-col gap-2 items-baseline ">
-<p data-aos='fade-left'  className="text-2xl font-spartan text-offSalmon-100 text-justify">"{texto1}"</p>
-<p data-aos='fade-left'  className="text-2xl font-spartan text-offSalmon-100 text-justify">"{texto2}"</p>
-<p data-aos='fade-left'  className="text-2xl font-spartan text-offSalmon-100 text-justify">"{texto3}"</p>
-
-<a data-aos='fade-left'  href={link} target="_blank"><p className="text-3xl font-spartan text-salmon-200 text-justify relative top-10 transition-color ease-in duration-150 underline decoration-[#0f0200]  hover:decoration-salmon-300"> ¿Quieres ir al sitio?</p></a>
+<p data-aos='fade-left'  className="text-2xl font-spartan text-offSalmon-100 text-justify">&apos;{texto1}&apos;</p>
+<p data-aos='fade-left'  className="text-2xl font-spartan text-offSalmon-100 text-justify">&apos;{texto2}&apos;</p>
+<p data-aos='fade-left'  className="text-2xl font-spartan text-offSalmon-100 text-justify">&apos;{texto3}&apos;</p>
+<a data-aos='fade-left'  href={link} target="_blank">
+  <p className="text-3xl font-spartan text-salmon-200 text-justify relative top-10 transition-color ease-in duration-150 underline decoration-[#0f0200]  hover:decoration-salmon-300">Lee el articulo completo</p>
+  </a>
 </div>
         </div>
         {modalImage !== '' && 
