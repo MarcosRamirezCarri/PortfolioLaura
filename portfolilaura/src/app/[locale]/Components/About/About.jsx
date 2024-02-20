@@ -12,7 +12,7 @@ export default function About() {
     AOS.init({duration: 2000})
   },[])
     return (
-      <div className="h-[80vh] w-[100vw] relative top-32 flex flex-col z-[10]  ">
+      <div className="h-[80vh] w-[100vw] relative top-32 flex flex-col z-[10] select-none  ">
      <div className="grid grid-cols-2 gap-5 h-[60vh] w-[90vw] relative place-self-center">
            <div className={style.leftSection}>
            <div className="flex flex-col  bg-offSalmon-900 p-5 rounded">

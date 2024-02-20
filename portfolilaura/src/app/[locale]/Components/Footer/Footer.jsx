@@ -21,7 +21,7 @@ const CalendlyLink = 'https://calendly.com/lauramirezcarri'
 const marcosLinkedin = 'https://www.linkedin.com/in/marcos-nicolas-ramirez-carrivali-b8bb77253/'
 const marcosGithub = 'https://github.com/MarcosRamirezCarri'
     return (
-      <div className="w-full h-[17vh] flex flex-row bg-offSalmon-950 relative overflow-x-hidden mt-44 overflow-y-hidden gap-10 place-self-end justify-around p-5">
+      <div className="w-full h-[17vh] flex flex-row bg-offSalmon-950 relative overflow-x-hidden mt-44 overflow-y-hidden gap-10 place-self-end justify-around p-5 select-none">
        <div className="flex flex-col gap-5">
         <p className="text-offSalmon-100">© 2024 Laura Ramirez Carrivali Todos los derechos reservados</p>
        <div className="flex flex-row gap-5 justify-center">

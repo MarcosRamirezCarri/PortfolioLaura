@@ -48,7 +48,7 @@ const CalendlyLink = 'https://calendly.com/lauramirezcarri'
     }
   }
   return (
-    <div className="fixed w-[100vw] h-24 bg-offSalmon-200 flex flex-row shadow-sm justify-between shadow-salmon-200 p-3 z-[100]">
+    <div className="fixed w-[100vw] h-24 bg-offSalmon-200 flex flex-row shadow-sm justify-between shadow-salmon-200 select-none p-3 z-[100]">
         <div className="flex flex-col place-self-start relative left-8">
         <Image className="rounded-full h-40 w-40 p-2 bg-offSalmon-300 ring-8 ring-offSalmon-200" src={LauraLogo} width={300} height={300} alt="PhLogo"/>
         </div>

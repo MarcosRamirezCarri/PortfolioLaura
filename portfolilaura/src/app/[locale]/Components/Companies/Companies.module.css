@@ -9,7 +9,7 @@
     justify-content: center;
     flex-direction: column;
     display: flex;
-animation: scroll 170s linear infinite;  
+animation: scroll 110s linear infinite;  
 }
 @keyframes scroll {
     0% {
