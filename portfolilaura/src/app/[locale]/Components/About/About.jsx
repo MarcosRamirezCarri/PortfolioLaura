@@ -16,7 +16,7 @@ export default function About() {
      <div className="grid grid-cols-2 gap-5 h-[60vh] w-[90vw] relative place-self-center">
            <div className={style.leftSection}>
            <div className="flex flex-col  bg-offSalmon-900 p-5 rounded">
-        <Image src={Laura} width={600} height={600} className="h-96 w-96 rounded-xl relative ring-2 ring-offSalmon-800 self-center" alt="PhLaura"/>
+        <Image src={Laura} width={400} height={600} className="h-[70%] w-[60%]   rounded-xl relative ring-2 ring-offSalmon-800 self-center" alt="PhLaura"/>
      </div>
            </div>
            <div className={style.rightSection}>

@@ -1,5 +1,6 @@
 'use client'
 import { useState } from "react";
+import Link from "next/link";
 import	LauraLogo from '../../../../Data/LogoLaura.png'
 import { FaLinkedin } from "react-icons/fa";
 import { FaCalendarAlt } from "react-icons/fa";
