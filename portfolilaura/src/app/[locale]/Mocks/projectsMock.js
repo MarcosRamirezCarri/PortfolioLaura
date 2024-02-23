@@ -5,8 +5,8 @@ const projects = [
         Especialidad: 'Copywriting',
         Empresa: 'Revidox',
         texto1:'¿Sabías que el estrés oxidativo es responsable de más del 70% del envejecimiento de la piel? Este es –básicamente- un desequilibrio de tu sistema biológico para desintoxicarte.',
-        texto2:'Así, tu organismo puede dañar tus células y contribuir a la aceleración del envejecimiento. Tu cuerpo produce constantemente radicales libres, que son moléculas inestables que pueden modificar tus células.',
-        texto3:'Afortunadamente, también produce antioxidantes, que pueden neutralizar los radicales libres y proteger las células.',
+        texto2:'Así, tu organismo puede dañar tus células y contribuir a la aceleración del envejecimiento. Tu cuerpo produce constantemente radicales libres, que son moléculas inestables.',
+        texto3:'Afortunadamente, también produce antioxidantes, que pueden proteger las células.',
         image:"https://res.cloudinary.com/dljgbq48k/image/upload/v1707861906/WhatsApp_Image_2024-02-13_at_18.22.15_oj56t9.jpg",
         link:'https://www.saebolivia.com/que-es-el-estres-oxidativo/',
           
@@ -25,7 +25,7 @@ const projects = [
     },
     {
         id: 3,
-        name: 'Tips para cuidarte de la ola de calor',
+        name: 'Cuidados para el calor',
         Especialidad: 'Copywriting',
         Empresa: 'Antigripal LCH',
         texto1:'1- Bebe mucha agua. 2- Evita las bebidas con cafeína, alcohol o alto contenido en azucar. 3- Evita los deportes al aire libre durante las horas mas calurosas del día.',

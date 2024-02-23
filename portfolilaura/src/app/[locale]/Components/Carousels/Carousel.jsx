@@ -29,12 +29,12 @@ export default function Carousel() {
   },[])
   const carouselAll = [...CarouselImg]
     return (
-      <div className="w-full flex flex-col relative top-36 gap-10">
+      <div className="w-full flex flex-col relative pt-10 top-[35vh] lg:top-36 gap-10">
         <div  className='bg-gradient-to-l from-black to-offSalmon-950  w-full h-[70vh] absolute  skew-y-[-3deg] -z-[999]'></div>
-        <h1 data-aos='fade-left' className="text-4xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Otros trabajos</h1>
-        <div className='grid grid-cols-2 gap-5 place-items-center'>
+        <h1 data-aos='fade-left' className="text-xl lg:text-4xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Otros trabajos</h1>
+        <div className='flex flex-col lg:grid lg:grid-cols-2 gap-5 lg:place-self-center'>
         {carouselAll && carouselAll.map((car) => 
-        <div data-aos='fade-up' className='bg-offSalmon-300 flex flex-col gap-3 py-5 px-2 max-h-96 max-w-[30vw] rounded' key={car.id}>
+        <div data-aos='fade-up' className='bg-offSalmon-300  relative flex flex-col gap-3 py-5 px-2 m-5 lg:max-h-96 lg:max-w-[30vw] rounded' key={car.id}>
           
 <Swiper
         effect={'coverflow'}

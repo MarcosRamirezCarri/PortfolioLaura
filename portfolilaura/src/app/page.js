@@ -10,7 +10,7 @@ import Footer from "./[locale]/Components/Footer/Footer";
 
 export default function Home() {
   return (
-    <div className="w-full flex flex-col overflow-x-hidden overflow-y-hidden gap-10">
+    <div className="w-full flex flex-col overflow-x-hidden overflow-y-hidden gap-5 lg:gap-10">
       <NavBar SectionAbout='SectionAbout' SectionProjects='SectionProjects'/>
       <div  id='SectionAbout'>
       <About/>

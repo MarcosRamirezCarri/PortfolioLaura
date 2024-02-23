@@ -2,6 +2,24 @@
 animation:scale-up-vertical-top 0.2s linear both
 } 
 
+.animate2{
+    padding: 1rem;
+    position: fixed;
+    z-index: 999;
+    animation: l9 1.5s infinite linear alternate;
+}
+@keyframes l9 {
+    0% {
+      transform: translateX(-10px);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100%{
+        transform: translateX(12px);
+    }
+  }
+
 @keyframes scale-up-vertical-top
 {0%{
     opacity: 	0;
