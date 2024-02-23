@@ -63,7 +63,7 @@ export default function AllCompanies() {
     AOS.init({duration: 1000})
   },[])
     return (
-      <div className="w-full h-[50vh] flex flex-col relative pt-10 top-[35vh] lg:top-28 select-none ">
+      <div className="w-full h-[50vh] flex flex-col relative pt-10 top-[40vh] lg:top-28 select-none ">
  <div  className='bg-gradient-to-r from-black to-offSalmon-950 w-full  h-[70vh] absolute skew-y-3 -z-[999]'></div>
 <div className='flex flex-col gap-3'>
   <p data-aos='fade-right' className="text-xl lg:text-2xl flex flex-row gap-2 text-left self-center text-offSalmon-100 font-semibold font-spartan">A través de Sabio Marketing 360º</p>

@@ -36,7 +36,7 @@ Una de mis pasiones es la docencia, donde estoy orgullosa de decir que cuento co
   </div>
    </div>      
      </div>
-     <div className="invisible lg:visible">
+     <div className="self-center invisible lg:visible">
      <Scrollnav/>
      </div>
      

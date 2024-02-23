@@ -33,7 +33,7 @@ export default function ProjectsCard({name, texto1, texto2, texto3, Empresa, Esp
 <p data-aos='fade-left'  className={` lg:text-2xl font-spartan ${name === 'Comunicacion B2B' ? 'text-md' : 'text-lg'  } text-offSalmon-100 text-justify`}>&apos;{texto2}&apos;</p>
 <p data-aos='fade-left'  className={` lg:text-2xl font-spartan ${name === 'Comunicacion B2B' ? 'text-md' : 'text-lg'  } text-offSalmon-100 text-justify`}>&apos;{texto3}&apos;</p>
 <a data-aos='fade-left'  href={link} target="_blank">
-  <p className="text-xl lg:text-3xl font-spartan text-salmon-200 text-justify relative top-2 lg:top-10 transition-color ease-in duration-150 underline decoration-[#0f0200] select-none  hover:decoration-salmon-300">Lee el articulo completo</p>
+  <p className="text-xl lg:text-3xl font-spartan text-salmon-200 text-justify relative top-2 lg:top-10 transition-color ease-in duration-150 underline decoration-[#0f0200] select-none  hover:decoration-salmon-300">Lee el artículo completo</p>
   </a>
 </div>
         </div>

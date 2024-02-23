@@ -33,7 +33,7 @@ const marcosGithub = 'https://github.com/MarcosRamirezCarri'
        <div className="flex flex-col gap-5">
        <p className="text-offSalmon-100">Portfolio creado por Marcos Ramirez Carrivali</p>
        <div className="flex flex-row gap-5 justify-center">
-       <a href={marcosLinkedin} target="_blank"> <button  className="text-2xl lg:text-4xltext-center font-normal gap-3 flex flex-row font-spartan transition-color ease-in duration-150 hover:text-salmon-800"><FaLinkedin/> </button></a>
+       <a href={marcosLinkedin} target="_blank"> <button  className="text-2xl lg:text-4xl text-center font-normal gap-3 flex flex-row font-spartan transition-color ease-in duration-150 hover:text-salmon-800"><FaLinkedin/> </button></a>
        <a href={marcosGithub} target="_blank"> <button  className="text-2xl lg:text-4xl text-center font-normal gap-3 flex flex-row font-spartan transition-color ease-in duration-150 hover:text-salmon-800"><FaGithub/> </button></a>
        </div>
        </div>

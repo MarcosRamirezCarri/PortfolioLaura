@@ -51,7 +51,7 @@ const projects = [
         id: 5,
         name: 'Kayak WAVE FISHING',
         Especialidad: 'Copywriting',
-        Empresa: 'Nautica de la Ribera',
+        Empresa: 'Náutica de la Ribera',
         texto1:'Es ligero, resistente y duradero. Te brinda estabilidad y control, especial para principiantes o avanzados. Además, tiene:',
         texto2:'- Butaca ergonómica y regulable en 3 posiciones. - Compartimento para guardar hasta 1 caña entera. - Cuatro posacañas. - Almacenamiento de tambucho estanco.',
         texto3:'¿Qué esperás para pescar nivel PRO? Lo encontrás en Náutica de la Ribera. Ingresá en nuestra web y conocé nuestro catálogo',
