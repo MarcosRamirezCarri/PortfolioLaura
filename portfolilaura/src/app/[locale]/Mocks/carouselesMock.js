@@ -15,10 +15,9 @@ const CarouselImg = [
     {
         id: 3,
         work:'Carrousel',
-        imagenes: ['https://res.cloudinary.com/dljgbq48k/image/upload/v1707947031/WhatsApp_Image_2024-02-14_at_18.42.48_uvqmrz.jpg',
-    'https://res.cloudinary.com/dljgbq48k/image/upload/v1707947537/WhatsApp_Image_2024-02-14_at_18.49.20_wavzzq.jpg',
-'https://res.cloudinary.com/dljgbq48k/image/upload/v1707947552/WhatsApp_Image_2024-02-14_at_18.49.59_kkqeqi.jpg',
-'https://res.cloudinary.com/dljgbq48k/image/upload/v1707947543/WhatsApp_Image_2024-02-14_at_18.50.38_ivomfp.jpg'],
+        imagenes: ['https://res.cloudinary.com/dljgbq48k/image/upload/v1723662195/1716220930228_mszv7u_mtjctq.png',
+    'https://res.cloudinary.com/dljgbq48k/image/upload/v1723662434/WhatsApp_Image_2024-08-14_at_16.06.02_miro8b.jpg',
+'https://res.cloudinary.com/dljgbq48k/image/upload/v1723662428/WhatsApp_Image_2024-08-14_at_16.06.26_qdqbq2.jpg'],
     },
     {
         id: 4,

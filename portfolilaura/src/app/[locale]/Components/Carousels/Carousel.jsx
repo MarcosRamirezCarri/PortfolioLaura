@@ -9,7 +9,6 @@ import AOS from "aos";
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination, Scrollbar, EffectCoverflow , A11y } from 'swiper/modules';
 import 'swiper/css';
-import 'swiper/css/effect-cube';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
@@ -29,7 +28,7 @@ export default function Carousel() {
   },[])
   const carouselAll = [...CarouselImg]
     return (
-      <div className="w-full flex flex-col relative pt-10 top-[35vh] lg:top-36 gap-10">
+      <div className="w-full flex flex-col relative gap-10">
         <div  className='bg-gradient-to-l from-black to-offSalmon-950  w-full h-[70vh] absolute  skew-y-[-3deg] -z-[999]'></div>
         <h1 data-aos='fade-left' className="text-xl lg:text-4xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Otros trabajos</h1>
         <div className='flex flex-col lg:grid lg:grid-cols-2 gap-5 lg:place-self-center'>
@@ -63,18 +62,33 @@ export default function Carousel() {
         
         ) }
         </div>
-        {modalImage !== '' && 
-           <div className={styleModal.modal}>
-           <div className={styleModal.modalContent}>
-             <span className={styleModal.close} onClick={closeModal}>x</span>
-             <TransformWrapper defaultScale={1} defaultPositionX={200} defaultPositionY={200}>
-               <TransformComponent>
-                 <Image id="modalImage" src={modalImage} as="image" className={styleModal.modalImage} alt='phProyect' width={350} height={550}  />
-               </TransformComponent>
-             </TransformWrapper>
-           </div>
-         </div>
-          }
+        {modalImage !== "" && (
+        <div className={styleModal.modal}>
+          <div onClick={closeModal} className={styleModal.modalContent}>
+            <TransformWrapper
+              defaultScale={1}
+              defaultPositionX={200}
+              defaultPositionY={200}
+            >
+              <TransformComponent>
+                <div onClick={(e) => e.stopPropagation()}>
+                <Image
+                
+                  id="modalImage"
+                  src={modalImage}
+                  as="image"
+                  className={styleModal.modalImage}
+                  alt="phProyect"
+                  width={450}
+                  height={450}
+                />
+                </div>
+                
+              </TransformComponent>
+            </TransformWrapper>
+          </div>
+        </div>
+      )}
       </div>
     );
   }

@@ -13,9 +13,9 @@ export default function Projects() {
   const allProjects = [...projects]
 
     return (
-      <div className="w-full flex flex-col relative pt-5 top-[30vh] lg:top-32 gap-10">
+      <div className="w-full flex flex-col relative gap-10">
       <h1 data-aos='fade-up' className="text-2xl lg:text-3xl flex flex-row gap-2 text-center self-center text-offSalmon-200 font-semibold font-spartan">Mis Copys </h1>
-   <div className='flex flex-col gap-40 lg:gap-32'>
+   <div className='flex flex-col gap-[7rem]'>
    {allProjects && allProjects.map((oneProject, index) =>
       <div  key={index} >
 <ProjectsCard 
