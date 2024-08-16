@@ -41,7 +41,7 @@ const PopupCard = ({ messages, duration, onComplete, showPopup }) => {
         Recomendacion de:<p>{messages[currentMessageIndex].from}</p>{" "}
       </div>
       <p className="font-spartan gap-2 text-md lg:text-lg font-normal text-offSalmon-950">
-        "{messages[currentMessageIndex].message}"
+      &ldquo;{messages[currentMessageIndex].message}&rdquo;
       </p>
     </div>
   );

@@ -54,7 +54,7 @@ export default function AllCompanies() {
   useEffect(() => {
     const clonedComp = [...comps, ...comps, ...comps];
     setClonedComps(clonedComp);
-  }, []);
+  }, [comps]);
 
   useEffect(() => {
     AOS.init({ duration: 1000 });
