@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Recomend from "./[locale]/Components/Recomends/Recomends";
 import NavBar from "./[locale]/Components/NavBar/NavBar";
 import About from "./[locale]/Components/About/About";
 import Titles from "./[locale]/Components/Titles/Titles";
@@ -6,7 +6,7 @@ import AllCompanies from "./[locale]/Components/Companies/Companies";
 import Projects from "./[locale]/Components/Projects/Projects";
 import Carousel from "./[locale]/Components/Carousels/Carousel";
 import Footer from "./[locale]/Components/Footer/Footer";
-import PopupComp from "./[locale]/Components/Popup/PopupComp";
+
 
 
 export default function Home() {
@@ -18,14 +18,16 @@ export default function Home() {
       <About/>
       </div>
       <Titles/>
+      <Recomend/>
       <AllCompanies/>
       <div id='SectionProjects' >
       <Projects />
       </div>
       
       <Carousel/>
+    
       <Footer/>
-      <PopupComp/>
+
       </div>
       
     </div>

@@ -18,25 +18,13 @@ const projects = [
         id: 2,
         name: 'Industria del entretenimiento y el streaming',
         Especialidad: 'Copywriting',
-        Empresa: 'Screen Capital',
+        Empresa: '',
         texto1:'En menos de tres semanas luego del estreno, la recaudación de “Intensamente 2” superó US$ 1.000 millones, rompiendo récords en todas partes del mundo y convirtiéndose en un verdadero éxito mundial.',
         texto2:'Sin embargo, lejos de ser una señal de recuperación de la industria del cine, esta realidad solo refleja el dominio de estas superproducciones y su poder para desplazar a las películas independientes.',
         texto3:'Las cifras europeas lo confirman en 2023, si bien se estrenaron más películas europeas que estadounidenses, estas últimas dominaron la taquilla con un 70,1% de las entradas vendidas.',
          image:
             "https://res.cloudinary.com/dljgbq48k/image/upload/v1723659944/WhatsApp_Image_2024-08-14_at_12.45.39_vuttdq.jpg",
-        link:'https://www.linkedin.com/company/screen-capital-s-a/'
-    },
-    {
-        id: 3,
-        name: 'Evita el estrés oxidativo',
-        Especialidad: 'Copywriting',
-        Empresa: 'Revidox',
-        texto1:'¿Sabías que el estrés oxidativo es responsable de más del 70% del envejecimiento de la piel? Este es –básicamente- un desequilibrio de tu sistema biológico para desintoxicarte.',
-        texto2:'Así, tu organismo puede dañar tus células y contribuir a la aceleración del envejecimiento. Tu cuerpo produce constantemente radicales libres, que son moléculas inestables.',
-        texto3:'Afortunadamente, también produce antioxidantes, que pueden proteger las células.',
-        image:"https://res.cloudinary.com/dljgbq48k/image/upload/v1707861906/WhatsApp_Image_2024-02-13_at_18.22.15_oj56t9.jpg",
-        link:'https://www.saebolivia.com/que-es-el-estres-oxidativo/',
-          
+        link:''
     },
     
     {

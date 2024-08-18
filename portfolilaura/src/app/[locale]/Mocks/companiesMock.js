@@ -28,13 +28,6 @@ const Companies = [
     imagen: 'https://res.cloudinary.com/dljgbq48k/image/upload/v1723661344/digiventures_logo_ozlorv.jpg' 
 },
 {
-    id: 5,
-    name: 'Screen Capital',
-    road: 'Medicina',
-    country: 'https://res.cloudinary.com/dljgbq48k/image/upload/v1707759780/ilustracion-bandera-argentina_53876-27120_tppb9t.avif',
-    imagen: 'https://res.cloudinary.com/dljgbq48k/image/upload/v1723661659/screen_capital_s_a_logo_r9q6mj.jpg' 
-},
-{
     id: 6,
     name:'Elegí Fruta',
     country: 'https://res.cloudinary.com/dljgbq48k/image/upload/v1707759780/ilustracion-bandera-argentina_53876-27120_tppb9t.avif',

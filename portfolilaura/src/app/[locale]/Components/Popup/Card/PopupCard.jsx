@@ -32,7 +32,9 @@ const PopupCard = ({ messages, duration, onComplete, showPopup }) => {
       className={`flex bg-offSalmon-500 px-2 py-3 rounded-[1rem] ring-2 ring-offSalmon-300 rounded-br-none w-[80%] lg:w-[40%] h-fit z-[101] flex-col fixed bottom-5 right-2 lg:right-16 transition-all duration-500 delay-100 ${
         showPopup
           ? `${
-              isAnimating ? " translate-x-[100vw] lg:translate-x-[50vw]" : "translate-x-[0vw]"
+              isAnimating
+                ? " translate-x-[100vw] lg:translate-x-[50vw]"
+                : "translate-x-[0vw]"
             } translate-x-[0vw]`
           : "translate-x-[100vw] lg:translate-x-[50vw]"
       }`}
@@ -41,7 +43,7 @@ const PopupCard = ({ messages, duration, onComplete, showPopup }) => {
         Recomendacion de:<p>{messages[currentMessageIndex].from}</p>{" "}
       </div>
       <p className="font-spartan gap-2 text-md lg:text-lg font-normal text-offSalmon-950">
-      &ldquo;{messages[currentMessageIndex].message}&rdquo;
+        &ldquo;{messages[currentMessageIndex].message}&rdquo;
       </p>
     </div>
   );

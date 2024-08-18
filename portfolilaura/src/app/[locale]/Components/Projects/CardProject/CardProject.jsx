@@ -84,7 +84,7 @@ export default function ProjectsCard({
           >
             &apos;{texto3}&apos;
           </p>
-          <a data-aos="fade-left" href={link} target="_blank">
+          <a className={`${link.length < 2 ? 'hidden': 'content' }`} data-aos="fade-left" href={link} target="_blank">
             <p className="text-xl lg:text-3xl font-spartan text-salmon-200 text-justify relative top-2 lg:top-10 transition-color ease-in duration-150 underline decoration-[#0f0200] select-none  hover:decoration-salmon-300">
               Lee el artículo completo
             </p>
