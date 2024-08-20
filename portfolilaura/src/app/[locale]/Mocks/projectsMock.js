@@ -31,11 +31,11 @@ const projects = [
         name: 'Reseña película "Her"',
         Especialidad: 'Copywriting',
         Empresa: '',
-        texto1:'¿Recuerdan aquella extraña película, allá por el 2013 protagonizada por joaquín phoenix. "Her" en aquel entonces, se nos hacía posaible, pero no muy lejana.',
-        texto2:'Sin embargo, hoy sentimos que nos respira en las narices...¿No les pasa?.',
-        texto3:'Esta película no sólo tematiza la posibilidad de que "alguien" detrás de la Inteligencia Artificial. También explora los límites del amor, la tecnología y la conexión humana.',
+        texto1:'¿Recuerdan aquella extraña película, allá por el 2013, protagonizada por Joaquín Phoenix? “Her” en aquel entonces, se nos hacía posible, pero muy lejana. ',
+        texto2:'Sin embargo, hoy sentimos que nos respira en las narices… ¿no les pasa?',
+        texto3:'Esta película no sólo tematiza la posibilidad de que nos enamoremos de ‘alguien’ detrás de la Inteligencia Artificial. También explora los límites del amor, la tecnología y la conexión humana. Si aún no la han visto… ¿qué esperan para darle play?',
          image:
-            "https://res.cloudinary.com/dljgbq48k/image/upload/v1724007084/WhatsApp_Image_2024-08-16_at_20.56.13_ms19u0.jpg",
+            "https://res.cloudinary.com/dljgbq48k/image/upload/v1724112272/WhatsApp_Image_2024-08-19_at_21.03.09_i9dpkb.jpg",
         link:''
     },
     
