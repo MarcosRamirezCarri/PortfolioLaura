@@ -6,12 +6,12 @@ const PopupMessages = [
     {
         id: 2,
         from: 'Manager',
-        message: 'Laura es una excelente Profecional. Se ha desempeñado en la companía como redactora de forma muy profecional y comprometida.'
+        message: 'Laura es una excelente profesional. Se ha desempañado en la compañía como redactora de forma muy profesional y comprometida.'
     },
     {
         id: 3,
         from: 'Manager',
-        message: 'Laura Ha crecido en su performance, siempre esta atenta al feedback y a la mejora continua, Recomiendo 100%'
+        message: 'Laura ha crecido en su performance y siempre está atents al feedback y la mejora continua. La recomiendo 100%'
     }
 ]
 
