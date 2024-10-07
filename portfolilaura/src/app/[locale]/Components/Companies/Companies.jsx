@@ -67,7 +67,7 @@ export default function AllCompanies() {
           data-aos="fade-right"
           className="text-md lg:text-2xl flex flex-row gap-2 text-left self-center text-offSalmon-100 font-semibold font-spartan"
         >
-          A través de Sabio Marketing 360º y Pragmativa B2B
+          A través de empresas de Marketing
         </p>
         <h1
           data-aos="fade-left"

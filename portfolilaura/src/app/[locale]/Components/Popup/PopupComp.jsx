@@ -4,14 +4,9 @@ import PopupCard from "./Card/PopupCard";
 
 const PopupMessages = [
     {
-        id: 1,
-        from: 'Manager',
-        message: 'Nos gustó mucho lo que elaboraste y nos gustaría que puedas continuar con estos contenidos'
-    },
-    {
         id: 2,
         from: 'Manager',
-        message: 'Laura es una excelente Profecional. Se ha desempeñado en Sabio Marketing como redactora de forma muy profecional y comprometida.'
+        message: 'Laura es una excelente Profecional. Se ha desempeñado en la companía como redactora de forma muy profecional y comprometida.'
     },
     {
         id: 3,
@@ -23,12 +18,9 @@ const PopupMessages = [
 const PopupComp = () => {
   const [showPopup, setShowPopup] = useState(true);
 
-  const handleShowPopup = () => {
-    setShowPopup(true);
-  };
 
   const handlePopupComplete = () => {
-    setShowPopup(false); // Ocultar el popup cuando todos los mensajes se hayan mostrado
+    setShowPopup(false);
   };
 
   return (
@@ -36,7 +28,7 @@ const PopupComp = () => {
    
         <PopupCard
           messages={PopupMessages}
-          duration={15000} // Duración para cada mensaje en milisegundos
+          duration={15000} 
           onComplete={handlePopupComplete}
           showPopup={showPopup}
      

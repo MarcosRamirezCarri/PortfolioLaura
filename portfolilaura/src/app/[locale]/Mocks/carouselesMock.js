@@ -2,8 +2,9 @@ const CarouselImg = [
     {
         id: 1,
         work:'Carrousel',
-        imagenes: ['https://res.cloudinary.com/dljgbq48k/image/upload/v1707946801/WhatsApp_Image_2024-02-13_at_17.15.42_dfrrem.jpg', 
-    'https://res.cloudinary.com/dljgbq48k/image/upload/v1707946801/WhatsApp_Image_2024-02-13_at_17.15.43_vrsfbc.jpg'
+        imagenes: ['https://res.cloudinary.com/dljgbq48k/image/upload/v1728321816/WhatsApp_Image_2024-10-07_at_14.22.25_r9omun.jpg', 
+    'https://res.cloudinary.com/dljgbq48k/image/upload/v1728322568/WhatsApp_Image_2024-10-07_at_14.35.21_i3ezbp.jpg',
+    'https://res.cloudinary.com/dljgbq48k/image/upload/v1728322573/WhatsApp_Image_2024-10-07_at_14.35.57_q1wdxt.jpg'
     ] 
     },
     {

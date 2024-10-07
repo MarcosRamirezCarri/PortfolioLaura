@@ -1,9 +1,30 @@
-
-
-
 const projects = [
     {
         id: 1,
+        name: 'La Cautiva',
+        Especialidad: 'Copywriting',
+        Empresa: 'Proyecto Cultural',
+        texto1:'La Cautiva Es presentada en “La vuelta de Martín Fierro” (1879), y su historia es desgarradora, llena de despojos y miserias.',
+        texto2:'Fue capturada por los indios, luego de que asesinaron a su marido. En aquellos tiempos, las cautivas eran esclavas del indio y su china.',
+        texto3:'Soportando torturas y penas, haciéndola trabajar a sol y a sombra, mientras su pequeño hijo lloraba atado como un cordero. ',
+        image:
+            "https://res.cloudinary.com/dljgbq48k/image/upload/v1728321816/WhatsApp_Image_2024-10-07_at_14.22.25_r9omun.jpg",
+        link: 'https://www.instagram.com/p/C-v6QenxK4-/?igsh=dGF0dzlnZDNsNzBz'
+    },
+    {
+        id: 2,
+        name: 'Comunicación B2B',
+        Especialidad: 'Copywriting',
+        Empresa: 'Bayton',
+        texto1:'En el mercado laboral actual es creciente la necesidad de conformar equipos de trabajo heterogéneos, no solo por la importancia de abrazar las diferencias, sino por sus múltiples ventajas:',
+        texto2:'mayor creatividad e innovación, diversas perspectivas, apertura a nuevos mercados, mejor toma de decisiones. En este sentido, los equipos multigeneracionales -donde la generación silver cumple un rol destacado',
+        texto3:'se presentan como una valiosa oportunidad para fomentar el intercambio de conocimientos y experiencias. Al reunir a personas de diferentes edades, se crea un entorno rico en diversidad,',
+         image:
+            "https://res.cloudinary.com/dljgbq48k/image/upload/v1728322240/WhatsApp_Image_2024-10-07_at_14.30.28_fzm61i.jpg",
+        link:'https://blog.bayton.com/generacion-silver-mercado-laboral-actual'
+    },
+    {
+        id: 3,
         name: 'Importancia de las API en ambitos financieros',
         Especialidad: 'Copywriting',
         Empresa: 'Digi',
@@ -15,7 +36,7 @@ const projects = [
         link: 'https://www.linkedin.com/posts/digiventures_digitalizaciaejn-fintech-apis-activity-7220034670858555395-JF5b/?utm_source=combined_share_message&utm_medium=member_desktop'
     },
     {
-        id: 2,
+        id: 4,
         name: 'Industria del entretenimiento y el streaming',
         Especialidad: 'Copywriting',
         Empresa: '',
@@ -27,7 +48,7 @@ const projects = [
         link:''
     },
     {
-        id: 2,
+        id: 5,
         name: 'Reseña película "Her"',
         Especialidad: 'Copywriting',
         Empresa: '',
@@ -39,31 +60,8 @@ const projects = [
         link:''
     },
     
-    {
-        id: 4,
-        name: 'Comunicacion B2B',
-        Especialidad: 'Copywriting',
-        Empresa: 'Snackeo',
-        texto1:'La granola es rica, práctica de comer y puede combinarse con muchos alimentos. Conocé qué granolas tenemos en Snackeo ¿Por qué elegir granola para el break de tus empleados?',
-        texto2:'¡Empiecen bien el día con nuestras deliciosas granolas! Hechas con copos de avena integrales, nueces, semillas y muchas otras variantes. Incorporar granola al break es una forma saludable de alimentar el cuerpo.',
-        texto3:'¡Nuestra granola es tan buena que querrán comerla a puñados! Si incorporás granola en el break de todos, verás que es la manera perfecta de comenzar el día con el pie derecho.',
-         image:
-            "https://res.cloudinary.com/dljgbq48k/image/upload/v1707862168/WhatsApp_Image_2024-02-13_at_19.09.05_a1xfhx.jpg",
-        link:'https://snackeo.com.ar/2023/09/13/conoce-las-granolas-que-haran-felices-a-tus-empleados/'
-    },
    
-    {
-        id: 5,
-        name: 'Notas sobre skincare',
-        Especialidad: 'Copywriting',
-        Empresa: 'Ceannum',
-        texto1:'Consejos para llevar mejor que nadie el paso del tiempo. 1- Ten una dieta equilibrada y saludable. 2- Haz ejercicios regularmente',
-        texto2:'4- Duerme lo suficiente para reparar y regenerar tus celulas. 5- Controla el estrés. 6- Proteje tu piel del sol',
-        texto3:'7- Haz tu tratamiento con Ceannum para un plus extra al cuidado de tu piel. ¡Comparte esto a tu amiga para que sepa! Ceannum tiene la fórmula exclusiva y más eficaz para tu piel',
-        image:
-            "https://res.cloudinary.com/dljgbq48k/image/upload/v1707861905/WhatsApp_Image_2024-02-13_at_18.56.04_nol3hh.jpg",
-        link: 'https://www.instagram.com/p/CwlTKHYPras/?hl=es-la'
-    },
+   
     {
         id: 6,
         name: 'Kayak WAVE FISHING',
